@@ -21,11 +21,11 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
-    compile project(':MyUtils')
-    compile project(':MyDataStore')
-    compile project(':MyNet')
-    compile project(':MyDownLoad')
-    compile project(':MyImageLoader')
+    compile project(':LibUtils')
+    compile project(':LibDataStore')
+    compile project(':LibNet')
+    compile project(':LibDownload')
+    compile project(':LibImageLoader')
     compile 'com.jakewharton:butterknife:7.0.1'
     compile 'de.greenrobot:eventbus:2.4.0'
 }
