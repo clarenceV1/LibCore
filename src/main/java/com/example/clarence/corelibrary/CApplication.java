@@ -1,19 +1,5 @@
 package com.example.clarence.corelibrary;
 
-import android.app.ActivityManager;
-import android.content.Context;
-import android.content.Intent;
-import android.content.SharedPreferences;
-import android.content.pm.PackageInfo;
-import android.os.Build;
-
-import com.example.clarence.utillibrary.AnonymityUtils;
-import com.example.clarence.utillibrary.LogUtils;
-import com.example.clarence.utillibrary.PackageUtils;
-import com.example.clarence.utillibrary.StringUtils;
-
-import java.util.List;
-
 /**
  * Created by clarence on 3/27/16.
  */
