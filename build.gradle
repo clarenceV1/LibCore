@@ -25,7 +25,6 @@ dependencies {
     compile project(':LibDataStore')
     compile project(':LibNet')
     compile project(':LibDownload')
-    compile project(':LibImageLoader')
     compile 'com.jakewharton:butterknife:7.0.1'
     compile 'de.greenrobot:eventbus:2.4.0'
 }
