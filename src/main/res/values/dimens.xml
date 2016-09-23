@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- dp 值-->
+    <dimen name="head_height">50dp</dimen>
+    <dimen name="head_right_font_size">16sp</dimen>
+    <dimen name="head_center_font_size">20sp</dimen>
+</resources>
