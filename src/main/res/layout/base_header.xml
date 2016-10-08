@@ -27,6 +27,7 @@
         style="@style/head_common_tv_title"
         android:layout_alignParentRight="true"
         android:textSize="16sp"
+        android:layout_marginRight="10dp"
         android:gravity="center_vertical"
         android:textColor="@color/white_a"
         android:visibility="gone" />
