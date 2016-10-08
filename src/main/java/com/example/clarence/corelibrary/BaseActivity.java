@@ -51,8 +51,8 @@ public class BaseActivity extends FragmentActivity {
 
     protected void setTitlebarAction() {
         if (titleBarCommon != null) {
-            if (titleBarCommon.getLeftButtonView() != null) {
-                titleBarCommon.getLeftButtonView().setOnClickListener(
+            if (titleBarCommon.getLeftImageView() != null) {
+                titleBarCommon.getLeftImageView().setOnClickListener(
                         new View.OnClickListener() {
                             @Override
                             public void onClick(View v) {

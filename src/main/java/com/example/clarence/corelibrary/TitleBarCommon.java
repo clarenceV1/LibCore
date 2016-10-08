@@ -14,6 +14,7 @@ import android.widget.TextView;
  */
 public class TitleBarCommon extends RelativeLayout {
     private TextView mTvTitle;
+    private TextView mTvRight;
     private ImageView mIvLeft;
     private View mTitleContainer;
     private Context context;
@@ -28,6 +29,7 @@ public class TitleBarCommon extends RelativeLayout {
     public void init() {
         mTvTitle = (TextView) mTitleContainer.findViewById(R.id.baselayout_tv_title);
         mIvLeft = (ImageView) mTitleContainer.findViewById(R.id.baselayout_iv_left);
+        mTvRight = (TextView) mTitleContainer.findViewById(R.id.baselayout_tv_right);
     }
 
 
@@ -80,8 +82,17 @@ public class TitleBarCommon extends RelativeLayout {
      *
      * @return
      */
-    public View getLeftButtonView() {
+    public ImageView getLeftImageView() {
         return mIvLeft;
+    }
+
+    /**
+     * 获取左边按钮控件
+     *
+     * @return
+     */
+    public TextView getRightTextView() {
+        return mTvRight;
     }
 
 
